@@ -11,7 +11,7 @@ except requests.exceptions.ConnectionError:
 try:
     import requests
 except ImportError:
-    time.sleep(0.5)
+    time.sleep(0.5v. fj )
     os.system('pip install requests')
 import bs4,json,sys,random,datetime,time,re,subprocess,platform,struct,requests
 from bs4 import BeautifulSoup as sop
